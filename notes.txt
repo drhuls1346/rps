@@ -1,0 +1,46 @@
+Git Bash Commands
+
+These are linux commands.
+
+Start - Programs - Git - Git Bash
+
+If it's not installed on the computer, Git is on the virtual lab.
+
+/ - The start of a filepath. This is the equavilant of C:\ 
+
+cd  /p/ - changes the current directory directory to the P: drive.
+
+cd / - changes to the root directory.
+
+cd .. - Takes you back one folder in the directory.
+
+mkdir - make directory. Mine is called gitprojects. mkdir gitprojects
+
+cd gitprojects - moves me to that directory.
+
+ls - shows the files and folders of the current directory.
+
+How to paste: top bar - right click - edit - paste.
+
+git clone (paste web address) - clones down the Git repository onto the computer.
+
+Copy .py files into the gitprojects folder on the P: drive.
+
+cd rps - ls - shows the contents of the rps folder.
+
+git add rps.py - adds the rps.py file it to git. You still have to do a commit.
+
+git commit -m "Initial commit of rps.py" - commit command with a commit message.
+
+Once you commit something, that actually saves the changes into the repository.
+
+The commit message should have a short one line commit message followed by a longer multiline message.
+
+git push - pushes files up to the git hub repository on the webpage.
+
+git branch - Tells you what branches are in the currnet repository.
+The item in the list with the astrics is the one that you are currently using.
+
+git branch (name) creates a new branch in your project.
+
+git checkout (name) switches to the branch that you say.
